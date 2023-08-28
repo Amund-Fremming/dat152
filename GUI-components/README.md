@@ -27,7 +27,7 @@
 
 <br/><br/>
 
-**Import examples**
+### Import examples
 ```html
 <head>
   <script src='js/main.js' type='module'></script>
@@ -44,8 +44,8 @@ export default {
 };
 ```
 
-***Creating a component***
 ### Creating a component
+**Creating a component**
 ```js
 class CourseInfo extends HTMLElement {
   constructor() {
@@ -59,7 +59,7 @@ class CourseInfo extends HTMLElement {
 customElements.define('course-info', CourseInfo);
 ```
 
-### Attributes of custom tag
+**Attributes of custom tag**
 ```html
 <course-info
   data-course='DAT152'
@@ -92,7 +92,7 @@ class CourseInfo extends HTMLElement {
 customElements.define('course-info', CourseInfo);
 ```
 
-### Adding data via slot tag
+**Adding data via slot tag**
 ```html
 <body>
   <course-info>
@@ -105,8 +105,8 @@ customElements.define('course-info', CourseInfo);
 </body>
 ```
 
-**Component Communication**
-### Setting up communication
+### Component Communication
+**Setting up communication**
 ```js
 constructor() {
   this.#metricElement.addCallback(this.#metricInput);
