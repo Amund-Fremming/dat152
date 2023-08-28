@@ -44,6 +44,9 @@ export default {
 };
 ```
 
+<br/><br/>
+
+
 ### Creating a component
 **Creating a component**
 ```js
@@ -68,6 +71,9 @@ customElements.define('course-info', CourseInfo);
 </course-info>
 ```
 
+<br/>
+
+**Creating a template**
 ```js
 class CourseInfo extends HTMLElement {
   constructor() {
@@ -104,6 +110,8 @@ customElements.define('course-info', CourseInfo);
   </course-info>
 </body>
 ```
+
+<br/><br/>
 
 ### Component Communication
 **Setting up communication**
