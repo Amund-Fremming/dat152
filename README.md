@@ -1,1 +1,3 @@
-# dat152
+# Dat152
+- Notes from lectures
+- Code examples
